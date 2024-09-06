@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B23A98A22C8A968B001E4CCE /* TnCameraSlaverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23A98A12C8A968B001E4CCE /* TnCameraSlaverApp.swift */; };
+		B23A98A42C8A968B001E4CCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23A98A32C8A968B001E4CCE /* ContentView.swift */; };
+		B23A98A62C8A968D001E4CCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23A98A52C8A968D001E4CCE /* Assets.xcassets */; };
+		B23A98A92C8A968D001E4CCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23A98A82C8A968D001E4CCE /* Preview Assets.xcassets */; };
+		B23A98AB2C8A968D001E4CCE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23A98AA2C8A968D001E4CCE /* Persistence.swift */; };
+		B23A98AE2C8A968D001E4CCE /* TnCameraSlaver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B23A98AC2C8A968D001E4CCE /* TnCameraSlaver.xcdatamodeld */; };
+		B23B1D602C8AC8C10040B4FD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B23B1D5E2C8AC8C10040B4FD /* Localizable.strings */; };
+		B23B1D672C8AC9240040B4FD /* TnCameraAppViewProxyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23B1D652C8AC9240040B4FD /* TnCameraAppViewProxyClient.swift */; };
+		B23B1D682C8AC9240040B4FD /* TnCameraAppViewProxyClientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23B1D662C8AC9240040B4FD /* TnCameraAppViewProxyClientModel.swift */; };
+		B23B1D6B2C8AC9480040B4FD /* TnIosPackage in Frameworks */ = {isa = PBXBuildFile; productRef = B23B1D6A2C8AC9480040B4FD /* TnIosPackage */; };
+		B23B1D6E2C8AC95C0040B4FD /* TnCameraBase in Frameworks */ = {isa = PBXBuildFile; productRef = B23B1D6D2C8AC95C0040B4FD /* TnCameraBase */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B23A989E2C8A968B001E4CCE /* TnCameraSlaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TnCameraSlaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23A98A12C8A968B001E4CCE /* TnCameraSlaverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TnCameraSlaverApp.swift; sourceTree = "<group>"; };
+		B23A98A32C8A968B001E4CCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B23A98A52C8A968D001E4CCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B23A98A82C8A968D001E4CCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B23A98AA2C8A968D001E4CCE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		B23A98AD2C8A968D001E4CCE /* TnCameraSlaver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TnCameraSlaver.xcdatamodel; sourceTree = "<group>"; };
+		B23B1D5F2C8AC8C10040B4FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B23B1D612C8AC8D00040B4FD /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B23B1D652C8AC9240040B4FD /* TnCameraAppViewProxyClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TnCameraAppViewProxyClient.swift; sourceTree = "<group>"; };
+		B23B1D662C8AC9240040B4FD /* TnCameraAppViewProxyClientModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TnCameraAppViewProxyClientModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B23A989B2C8A968B001E4CCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23B1D6E2C8AC95C0040B4FD /* TnCameraBase in Frameworks */,
+				B23B1D6B2C8AC9480040B4FD /* TnIosPackage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B23A98952C8A968B001E4CCE = {
+			isa = PBXGroup;
+			children = (
+				B23A98A02C8A968B001E4CCE /* TnCameraSlaver */,
+				B23A989F2C8A968B001E4CCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B23A989F2C8A968B001E4CCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B23A989E2C8A968B001E4CCE /* TnCameraSlaver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B23A98A02C8A968B001E4CCE /* TnCameraSlaver */ = {
+			isa = PBXGroup;
+			children = (
+				B23B1D5D2C8AC8AC0040B4FD /* src */,
+				B23A98A12C8A968B001E4CCE /* TnCameraSlaverApp.swift */,
+				B23A98A32C8A968B001E4CCE /* ContentView.swift */,
+				B23A98A52C8A968D001E4CCE /* Assets.xcassets */,
+				B23A98AA2C8A968D001E4CCE /* Persistence.swift */,
+				B23A98AC2C8A968D001E4CCE /* TnCameraSlaver.xcdatamodeld */,
+				B23A98A72C8A968D001E4CCE /* Preview Content */,
+			);
+			path = TnCameraSlaver;
+			sourceTree = "<group>";
+		};
+		B23A98A72C8A968D001E4CCE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B23A98A82C8A968D001E4CCE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B23B1D5D2C8AC8AC0040B4FD /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B23B1D642C8AC8FF0040B4FD /* controllers */,
+				B23B1D632C8AC8F50040B4FD /* models */,
+				B23B1D622C8AC8E60040B4FD /* views */,
+				B23B1D5E2C8AC8C10040B4FD /* Localizable.strings */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		B23B1D622C8AC8E60040B4FD /* views */ = {
+			isa = PBXGroup;
+			children = (
+				B23B1D652C8AC9240040B4FD /* TnCameraAppViewProxyClient.swift */,
+				B23B1D662C8AC9240040B4FD /* TnCameraAppViewProxyClientModel.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		B23B1D632C8AC8F50040B4FD /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		B23B1D642C8AC8FF0040B4FD /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B23A989D2C8A968B001E4CCE /* TnCameraSlaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23A98B12C8A968D001E4CCE /* Build configuration list for PBXNativeTarget "TnCameraSlaver" */;
+			buildPhases = (
+				B23A989A2C8A968B001E4CCE /* Sources */,
+				B23A989B2C8A968B001E4CCE /* Frameworks */,
+				B23A989C2C8A968B001E4CCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TnCameraSlaver;
+			packageProductDependencies = (
+				B23B1D6A2C8AC9480040B4FD /* TnIosPackage */,
+				B23B1D6D2C8AC95C0040B4FD /* TnCameraBase */,
+			);
+			productName = TnCameraSlaver;
+			productReference = B23A989E2C8A968B001E4CCE /* TnCameraSlaver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B23A98962C8A968B001E4CCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B23A989D2C8A968B001E4CCE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = B23A98992C8A968B001E4CCE /* Build configuration list for PBXProject "TnCameraSlaver" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				vi,
+			);
+			mainGroup = B23A98952C8A968B001E4CCE;
+			packageReferences = (
+				B23B1D692C8AC9480040B4FD /* XCLocalSwiftPackageReference "../TnIosBase" */,
+				B23B1D6C2C8AC95C0040B4FD /* XCLocalSwiftPackageReference "../TnCameraBase" */,
+			);
+			productRefGroup = B23A989F2C8A968B001E4CCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B23A989D2C8A968B001E4CCE /* TnCameraSlaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B23A989C2C8A968B001E4CCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23A98A92C8A968D001E4CCE /* Preview Assets.xcassets in Resources */,
+				B23B1D602C8AC8C10040B4FD /* Localizable.strings in Resources */,
+				B23A98A62C8A968D001E4CCE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B23A989A2C8A968B001E4CCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23A98AB2C8A968D001E4CCE /* Persistence.swift in Sources */,
+				B23B1D682C8AC9240040B4FD /* TnCameraAppViewProxyClientModel.swift in Sources */,
+				B23B1D672C8AC9240040B4FD /* TnCameraAppViewProxyClient.swift in Sources */,
+				B23A98A42C8A968B001E4CCE /* ContentView.swift in Sources */,
+				B23A98A22C8A968B001E4CCE /* TnCameraSlaverApp.swift in Sources */,
+				B23A98AE2C8A968D001E4CCE /* TnCameraSlaver.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B23B1D5E2C8AC8C10040B4FD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B23B1D5F2C8AC8C10040B4FD /* en */,
+				B23B1D612C8AC8D00040B4FD /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B23A98AF2C8A968D001E4CCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B23A98B02C8A968D001E4CCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B23A98B22C8A968D001E4CCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TnCameraSlaver/Preview Content\"";
+				DEVELOPMENT_TEAM = JU4ZSYHCDP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tn.TnCameraSlaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B23A98B32C8A968D001E4CCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TnCameraSlaver/Preview Content\"";
+				DEVELOPMENT_TEAM = JU4ZSYHCDP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tn.TnCameraSlaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B23A98992C8A968B001E4CCE /* Build configuration list for PBXProject "TnCameraSlaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23A98AF2C8A968D001E4CCE /* Debug */,
+				B23A98B02C8A968D001E4CCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23A98B12C8A968D001E4CCE /* Build configuration list for PBXNativeTarget "TnCameraSlaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23A98B22C8A968D001E4CCE /* Debug */,
+				B23A98B32C8A968D001E4CCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		B23B1D692C8AC9480040B4FD /* XCLocalSwiftPackageReference "../TnIosBase" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../TnIosBase;
+		};
+		B23B1D6C2C8AC95C0040B4FD /* XCLocalSwiftPackageReference "../TnCameraBase" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../TnCameraBase;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B23B1D6A2C8AC9480040B4FD /* TnIosPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TnIosPackage;
+		};
+		B23B1D6D2C8AC95C0040B4FD /* TnCameraBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TnCameraBase;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		B23A98AC2C8A968D001E4CCE /* TnCameraSlaver.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B23A98AD2C8A968D001E4CCE /* TnCameraSlaver.xcdatamodel */,
+			);
+			currentVersion = B23A98AD2C8A968D001E4CCE /* TnCameraSlaver.xcdatamodel */;
+			path = TnCameraSlaver.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B23A98962C8A968B001E4CCE /* Project object */;
+}
