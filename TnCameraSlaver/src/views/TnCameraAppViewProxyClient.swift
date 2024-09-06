@@ -7,7 +7,7 @@
 
 import Foundation
 import SwiftUI
-import TnIosPackage
+import TnIosBase
 import TnCameraBase
 
 struct TnCameraAppViewProxyClient: TnCameraAppViewProtocol {
