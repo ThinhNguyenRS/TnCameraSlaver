@@ -6,13 +6,19 @@
 //
 
 import SwiftUI
+import TnIosBase
+import TnCameraBase
+import BinaryCodable
 
 @main
 struct TnCameraSlaverApp: App {
     var body: some Scene {
         WindowGroup {
-            CameraAppView()
-                .background(.black)
+            TnCameraAppView(
+                master: false,
+                bleInfo: TnCameraProxyServiceInfo.getBle(),
+                transportingInfo: TnCameraProxyServiceInfo.getTransporting(EOM: nil, MTU: nil, encoder: TnBinaryEncoder(), decoder: TnBinaryDecoder())
+            )
         }
     }
 }
