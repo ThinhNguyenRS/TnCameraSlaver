@@ -425,16 +425,16 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ThinhNguyenRS/TnIosBase";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				branch = main;
+				kind = branch;
 			};
 		};
 		B234987F2C8AF8F100E6EECB /* XCRemoteSwiftPackageReference "TnCameraBase" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ThinhNguyenRS/TnCameraBase";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				branch = main;
+				kind = branch;
 			};
 		};
 		B26AF2772CB54650008F6494 /* XCRemoteSwiftPackageReference "BinaryCodable" */ = {
