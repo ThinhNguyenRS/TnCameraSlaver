@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B234987E2C8AF8E000E6EECB /* TnIosBase in Frameworks */ = {isa = PBXBuildFile; productRef = B234987D2C8AF8E000E6EECB /* TnIosBase */; };
-		B23498812C8AF8F100E6EECB /* TnCameraBase in Frameworks */ = {isa = PBXBuildFile; productRef = B23498802C8AF8F100E6EECB /* TnCameraBase */; };
 		B23A98A22C8A968B001E4CCE /* TnCameraSlaverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23A98A12C8A968B001E4CCE /* TnCameraSlaverApp.swift */; };
 		B23A98A62C8A968D001E4CCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23A98A52C8A968D001E4CCE /* Assets.xcassets */; };
 		B23A98A92C8A968D001E4CCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23A98A82C8A968D001E4CCE /* Preview Assets.xcassets */; };
 		B23B1D602C8AC8C10040B4FD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B23B1D5E2C8AC8C10040B4FD /* Localizable.strings */; };
 		B23B1D6E2C8AC95C0040B4FD /* TnCameraBase in Frameworks */ = {isa = PBXBuildFile; productRef = B23B1D6D2C8AC95C0040B4FD /* TnCameraBase */; };
 		B26AF2792CB54650008F6494 /* BinaryCodable in Frameworks */ = {isa = PBXBuildFile; productRef = B26AF2782CB54650008F6494 /* BinaryCodable */; };
+		B29AD3542CD0D38900F92F8E /* TnCameraBase in Frameworks */ = {isa = PBXBuildFile; productRef = B29AD3532CD0D38900F92F8E /* TnCameraBase */; };
 		B2D0FB302CB7782E00BDDAAA /* TnBinaryCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D0FB2F2CB7782E00BDDAAA /* TnBinaryCodable.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,9 +33,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B26AF2792CB54650008F6494 /* BinaryCodable in Frameworks */,
-				B234987E2C8AF8E000E6EECB /* TnIosBase in Frameworks */,
 				B23B1D6E2C8AC95C0040B4FD /* TnCameraBase in Frameworks */,
-				B23498812C8AF8F100E6EECB /* TnCameraBase in Frameworks */,
+				B29AD3542CD0D38900F92F8E /* TnCameraBase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,9 +127,8 @@
 			name = TnCameraSlaver;
 			packageProductDependencies = (
 				B23B1D6D2C8AC95C0040B4FD /* TnCameraBase */,
-				B234987D2C8AF8E000E6EECB /* TnIosBase */,
-				B23498802C8AF8F100E6EECB /* TnCameraBase */,
 				B26AF2782CB54650008F6494 /* BinaryCodable */,
+				B29AD3532CD0D38900F92F8E /* TnCameraBase */,
 			);
 			productName = TnCameraSlaver;
 			productReference = B23A989E2C8A968B001E4CCE /* TnCameraSlaver.app */;
@@ -163,9 +160,8 @@
 			);
 			mainGroup = B23A98952C8A968B001E4CCE;
 			packageReferences = (
-				B234987C2C8AF8E000E6EECB /* XCRemoteSwiftPackageReference "TnIosBase" */,
-				B234987F2C8AF8F100E6EECB /* XCRemoteSwiftPackageReference "TnCameraBase" */,
 				B26AF2772CB54650008F6494 /* XCRemoteSwiftPackageReference "BinaryCodable" */,
+				B29AD3522CD0D38900F92F8E /* XCRemoteSwiftPackageReference "TnCameraBase" */,
 			);
 			productRefGroup = B23A989F2C8A968B001E4CCE /* Products */;
 			projectDirPath = "";
@@ -421,22 +417,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B234987C2C8AF8E000E6EECB /* XCRemoteSwiftPackageReference "TnIosBase" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ThinhNguyenRS/TnIosBase";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-		B234987F2C8AF8F100E6EECB /* XCRemoteSwiftPackageReference "TnCameraBase" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ThinhNguyenRS/TnCameraBase";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
 		B26AF2772CB54650008F6494 /* XCRemoteSwiftPackageReference "BinaryCodable" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/christophhagen/BinaryCodable";
@@ -445,19 +425,17 @@
 				minimumVersion = 3.0.3;
 			};
 		};
+		B29AD3522CD0D38900F92F8E /* XCRemoteSwiftPackageReference "TnCameraBase" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ThinhNguyenRS/TnCameraBase";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B234987D2C8AF8E000E6EECB /* TnIosBase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B234987C2C8AF8E000E6EECB /* XCRemoteSwiftPackageReference "TnIosBase" */;
-			productName = TnIosBase;
-		};
-		B23498802C8AF8F100E6EECB /* TnCameraBase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B234987F2C8AF8F100E6EECB /* XCRemoteSwiftPackageReference "TnCameraBase" */;
-			productName = TnCameraBase;
-		};
 		B23B1D6D2C8AC95C0040B4FD /* TnCameraBase */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = TnCameraBase;
@@ -466,6 +444,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = B26AF2772CB54650008F6494 /* XCRemoteSwiftPackageReference "BinaryCodable" */;
 			productName = BinaryCodable;
+		};
+		B29AD3532CD0D38900F92F8E /* TnCameraBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B29AD3522CD0D38900F92F8E /* XCRemoteSwiftPackageReference "TnCameraBase" */;
+			productName = TnCameraBase;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
